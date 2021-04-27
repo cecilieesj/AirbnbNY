@@ -1,5 +1,5 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Airbnb in New York"
+title = "Airbnb"
 theme = "ananke"
 publishDir = "docs"
