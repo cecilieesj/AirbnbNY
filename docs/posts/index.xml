@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Airbnb in New York</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on Airbnb in New York</description>
+    <title>Posts on New Title</title>
+    <link>https://cecilieesj.github.io/AirbnbNY/posts/</link>
+    <description>Recent content in Posts on New Title</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Apr 2021 13:53:28 +0200</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 13:53:28 +0200</lastBuildDate><atom:link href="https://cecilieesj.github.io/AirbnbNY/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>https://cecilieesj.github.io/AirbnbNY/posts/my-first-post/</link>
       <pubDate>Tue, 27 Apr 2021 13:53:28 +0200</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
+      <guid>https://cecilieesj.github.io/AirbnbNY/posts/my-first-post/</guid>
       <description></description>
     </item>
     
