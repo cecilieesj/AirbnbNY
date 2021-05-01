@@ -3,4 +3,5 @@ languageCode = "en-us"
 title = "Airbnb in NY"
 theme = "ananke"
 publishDir = "docs"
+cover = "/static/images/header.jpg"
 
