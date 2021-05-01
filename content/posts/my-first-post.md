@@ -9,4 +9,4 @@ The Airbnb's in New York City ...
 
 Here is the first image:
 
-
+![Boroughs_in_NYC]({{< baseurl >}}/images/Boroughs_in_NYC.png)
