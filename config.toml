@@ -1,6 +1,6 @@
 baseURL = "https://cecilieesj.github.io/AirbnbNY/"
 languageCode = "en-us"
-title = "New Title"
+title = "Airbnb in NY"
 theme = "ananke"
 publishDir = "docs"
 
