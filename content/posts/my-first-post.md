@@ -7,4 +7,3 @@ draft: false
 
 Hej med jer alle
 
-![Boroughs_in_NYC](/images/Boroughs_in_NYC.png)

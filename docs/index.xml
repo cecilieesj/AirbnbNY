@@ -6,7 +6,16 @@
     <description>Recent content on Airbnb in NY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Apr 2021 13:53:28 +0200</lastBuildDate><atom:link href="https://cecilieesj.github.io/AirbnbNY/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 May 2021 15:10:16 +0200</lastBuildDate><atom:link href="https://cecilieesj.github.io/AirbnbNY/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second_post</title>
+      <link>https://cecilieesj.github.io/AirbnbNY/posts/second_post/</link>
+      <pubDate>Sat, 01 May 2021 15:10:16 +0200</pubDate>
+      
+      <guid>https://cecilieesj.github.io/AirbnbNY/posts/second_post/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Airbnb in New York City</title>
       <link>https://cecilieesj.github.io/AirbnbNY/posts/my-first-post/</link>
