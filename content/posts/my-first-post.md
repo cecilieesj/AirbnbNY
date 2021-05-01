@@ -1,5 +1,5 @@
 ---
-title: "My First Post"
+title: "Airbnb in New York City"
 date: 2021-04-27T13:53:28+02:00
 draft: true
 
