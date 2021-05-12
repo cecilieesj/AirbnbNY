@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.0.min.js" integrity="sha384-HjagQp6T0/7bxYTAXbLotF1MLAGWmhkY5siA1Gc/pcEgvgRPtMsRn0gQtMwGKiw1" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="396842f3-b788-423b-abf2-119179b4ecb6" data-root-id="1005"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1225">
+          {"fe8e4846-d345-472a-b739-ed66755553a3":{"defs":[{"extends":null,"module":null,"name":"DataModel","overrides":[],"properties":[]}],"roots":{"references":[{"attributes":{"label":{"value":"Shared room"},"renderers":[{"id":"1039"}]},"id":"1044","type":"LegendItem"},{"attributes":{"data_source":{"id":"1003"},"glyph":{"id":"1024"},"hover_glyph":null,"muted":true,"muted_glyph":{"id":"1026"},"nonselection_glyph":{"id":"1025"},"view":{"id":"1028"}},"id":"1027","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#208F8C"},"line_alpha":{"value":0.1},"line_color":{"value":"#208F8C"},"top":{"field":"Entire home/apt"},"width":{"value":0.5},"x":{"field":"neighbourhood_group"}},"id":"1031","type":"VBar"},{"attributes":{"source":{"id":"1003"}},"id":"1028","type":"CDSView"},{"attributes":{},"id":"1009","type":"DataRange1d"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#440154"},"line_alpha":{"value":0.1},"line_color":{"value":"#440154"},"top":{"field":"Private room"},"width":{"value":0.5},"x":{"field":"neighbourhood_group"}},"id":"1025","type":"VBar"},{"attributes":{"factors":["Bronx","Brooklyn","Manhattan","Queens","Staten Island"]},"id":"1004","type":"FactorRange"},{"attributes":{"data_source":{"id":"1003"},"glyph":{"id":"1030"},"hover_glyph":null,"muted":true,"muted_glyph":{"id":"1032"},"nonselection_glyph":{"id":"1031"},"view":{"id":"1034"}},"id":"1033","type":"GlyphRenderer"},{"attributes":{"label":{"value":"Entire home/apt"},"renderers":[{"id":"1033"}]},"id":"1043","type":"LegendItem"},{"attributes":{"click_policy":"mute","items":[{"id":"1042"},{"id":"1043"},{"id":"1044"}],"location":"center_left"},"id":"1041","type":"Legend"},{"attributes":{"active_multi":null},"id":"1022","type":"Toolbar"},{"attributes":{"text":"Average price per room type in different regions"},"id":"1006","type":"Title"},{"attributes":{},"id":"1047","type":"BasicTickFormatter"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#208F8C"},"line_color":{"value":"#208F8C"},"top":{"field":"Entire home/apt"},"width":{"value":0.5},"x":{"field":"neighbourhood_group"}},"id":"1030","type":"VBar"},{"attributes":{},"id":"1019","type":"BasicTicker"},{"attributes":{"source":{"id":"1003"}},"id":"1034","type":"CDSView"},{"attributes":{"axis_label":"Price","formatter":{"id":"1047"},"major_label_policy":{"id":"1048"},"ticker":{"id":"1019"}},"id":"1018","type":"LinearAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":null},"line_alpha":{"value":0.1},"line_color":{"value":null},"top":{"field":"Private room"},"width":{"value":0.5},"x":{"field":"neighbourhood_group"}},"id":"1026","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#440154"},"line_color":{"value":"#440154"},"top":{"field":"Private room"},"width":{"value":0.5},"x":{"field":"neighbourhood_group"}},"id":"1024","type":"VBar"},{"attributes":{"below":[{"id":"1015"}],"center":[{"id":"1017"},{"id":"1021"}],"height":400,"left":[{"id":"1018"},{"id":"1041"}],"renderers":[{"id":"1027"},{"id":"1033"},{"id":"1039"}],"title":{"id":"1006"},"toolbar":{"id":"1022"},"toolbar_location":null,"width":800,"x_range":{"id":"1004"},"x_scale":{"id":"1011"},"y_range":{"id":"1009"},"y_scale":{"id":"1013"}},"id":"1005","subtype":"Figure","type":"Plot"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":null},"line_alpha":{"value":0.1},"line_color":{"value":null},"top":{"field":"Entire home/apt"},"width":{"value":0.5},"x":{"field":"neighbourhood_group"}},"id":"1032","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":null},"line_alpha":{"value":0.1},"line_color":{"value":null},"top":{"field":"Shared room"},"width":{"value":0.5},"x":{"field":"neighbourhood_group"}},"id":"1038","type":"VBar"},{"attributes":{},"id":"1048","type":"AllLabels"},{"attributes":{"axis_label":"Borough","formatter":{"id":"1050"},"major_label_policy":{"id":"1051"},"ticker":{"id":"1016"}},"id":"1015","type":"CategoricalAxis"},{"attributes":{"data":{"Entire home/apt":{"__ndarray__":"lfpT6k/pX0DaQ1x9mktmQOsLL2yfJ29AWHFCSp5hYkBddNFFF7tlQA==","dtype":"float64","order":"little","shape":[5]},"Private room":{"__ndarray__":"ZjWKOHSyUED3LOr8rSBTQKRoodmOM11AsIxa/LfxUUDE5ApiciVPQA==","dtype":"float64","order":"little","shape":[5]},"Shared room":{"__ndarray__":"MI+tCBpOTUChLBhtkENJQImIiIiIPlZALAVq/UpBUUCO4ziO47hMQA==","dtype":"float64","order":"little","shape":[5]},"neighbourhood_group":["Bronx","Brooklyn","Manhattan","Queens","Staten Island"]},"selected":{"id":"1053"},"selection_policy":{"id":"1052"}},"id":"1003","type":"ColumnDataSource"},{"attributes":{},"id":"1053","type":"Selection"},{"attributes":{"axis":{"id":"1015"},"ticker":null},"id":"1017","type":"Grid"},{"attributes":{"source":{"id":"1003"}},"id":"1040","type":"CDSView"},{"attributes":{},"id":"1051","type":"AllLabels"},{"attributes":{"axis":{"id":"1018"},"dimension":1,"ticker":null},"id":"1021","type":"Grid"},{"attributes":{"label":{"value":"Private room"},"renderers":[{"id":"1027"}]},"id":"1042","type":"LegendItem"},{"attributes":{},"id":"1016","type":"CategoricalTicker"},{"attributes":{},"id":"1052","type":"UnionRenderers"},{"attributes":{},"id":"1011","type":"CategoricalScale"},{"attributes":{"data_source":{"id":"1003"},"glyph":{"id":"1036"},"hover_glyph":null,"muted":true,"muted_glyph":{"id":"1038"},"nonselection_glyph":{"id":"1037"},"view":{"id":"1040"}},"id":"1039","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#FDE724"},"line_alpha":{"value":0.1},"line_color":{"value":"#FDE724"},"top":{"field":"Shared room"},"width":{"value":0.5},"x":{"field":"neighbourhood_group"}},"id":"1037","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#FDE724"},"line_color":{"value":"#FDE724"},"top":{"field":"Shared room"},"width":{"value":0.5},"x":{"field":"neighbourhood_group"}},"id":"1036","type":"VBar"},{"attributes":{},"id":"1013","type":"LinearScale"},{"attributes":{},"id":"1050","type":"CategoricalTickFormatter"}],"root_ids":["1005"]},"title":"Bokeh Application","version":"2.3.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1225').textContent;
+                  var render_items = [{"docid":"fe8e4846-d345-472a-b739-ed66755553a3","root_ids":["1005"],"roots":{"1005":"396842f3-b788-423b-abf2-119179b4ecb6"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
